@@ -1,0 +1,24 @@
+body {background-color: beige;}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #f5f5dc; 
+    color: black; 
+    border: #4CAF50;
+}
+
+#duplicateField {color: #4CAF50;}
